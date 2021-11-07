@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="refresh" content="0; URL=http://giulialorini.me/Portfolio">
+  <link rel="canonical" href="http://giulialorini.me/Portfolio">
 
   <title>Giulia Lorini - My Portfolio</title>
   <meta content="" name="description">
@@ -47,6 +49,7 @@
       <div class="profile">
         <img src="assets/img/Foto_laurea.jpeg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light text-center"><a href="index.html">Giulia Lorini</a></h1>
+        <p class="text-center"><a href="mailto:giulia@lorini.com">giulia@lorini.com</a></p>
         <div class="social-links mt-3 text-center">
 <!--          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
 <!--          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>-->
@@ -63,8 +66,8 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-slider"></i> <span>Skills</span></a></li> <!--try bx-library, bx-slider, bx-palette -->
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <!-- TODO reactivate after completing sections-->
-<!--          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>-->
 <!--          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>-->
 <!--          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>-->
         </ul>
@@ -323,7 +326,8 @@
               <span class="skill-list">nmap</span>, <span class="skill-list">aircrack-ng</span>,
               <span class="skill-list">ncrack</span>, <span class="skill-list">John The Ripper</span>,
               <span class="skill-list">valgrind</span>, <span class="skill-list">cppcheck</span>,
-              <span class="skill-list">AFL</span> and other fuzzers.
+              fuzzers (<span class="skill-list">AFL</span>, <span class="skill-list">KLEE</span>),
+              <span class="skill-list">ASTOR</span>.
             </p>
         </div>
 
@@ -501,15 +505,15 @@
 
 <!--        <div class="section-title">-->
 <!--          <h2>Portfolio</h2>-->
-<!--          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+<!--          <p>Work in progress...</p>-->
 <!--        </div>-->
 
 <!--        <div class="row" data-aos="fade-up">-->
 <!--          <div class="col-lg-12 d-flex justify-content-center">-->
 <!--            <ul id="portfolio-flters">-->
 <!--              <li data-filter="*" class="filter-active">All</li>-->
+<!--              <li data-filter=".filter-card">Security</li>-->
 <!--              <li data-filter=".filter-app">App</li>-->
-<!--              <li data-filter=".filter-card">Card</li>-->
 <!--              <li data-filter=".filter-web">Web</li>-->
 <!--            </ul>-->
 <!--          </div>-->
@@ -519,19 +523,19 @@
 
 <!--          <div class="col-lg-4 col-md-6 portfolio-item filter-app">-->
 <!--            <div class="portfolio-wrap">-->
-<!--              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">-->
+<!--              <img src="assets/img/portfolio/iconfinder_Book_with_seperator_1741325-2.png" class="img-fluid" alt="">-->
 <!--              <div class="portfolio-links">-->
-<!--                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>-->
-<!--                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+<!--                <a href="assets/img/portfolio/iconfinder_Book_with_seperator_1741325-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SmartNotebook"><i class="bx bx-plus"></i></a>-->
+<!--                <a href="https://github.com/GiuliaLo/Smart-Notebook" target="_blank" title="More Details"><i class="bx bx-link"></i></a>-->
 <!--              </div>-->
 <!--            </div>-->
 <!--          </div>-->
 
 <!--          <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
 <!--            <div class="portfolio-wrap">-->
-<!--              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">-->
+<!--              <img src="assets/img/portfolio/Logo_VicinoAmico.png" class="img-fluid" alt="">-->
 <!--              <div class="portfolio-links">-->
-<!--                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+<!--                <a href="assets/img/portfolio/Logo_VicinoAmico.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="VicinoAmico"><i class="bx bx-plus"></i></a>-->
 <!--                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
 <!--              </div>-->
 <!--            </div>-->
@@ -612,52 +616,83 @@
 <!--      </div>-->
 <!--    </section>&lt;!&ndash; End Portfolio Section &ndash;&gt;-->
 
-<!--    &lt;!&ndash; ======= Services Section ======= &ndash;&gt;-->
-<!--    <section id="services" class="services">-->
-<!--      <div class="container">-->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
 
-<!--        <div class="section-title">-->
-<!--          <h2>Services</h2>-->
-<!--          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
-<!--        </div>-->
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>This section is under construction...</p>
+        </div>
 
-<!--        <div class="row">-->
-<!--          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">-->
-<!--            <div class="icon"><i class="bi bi-briefcase"></i></div>-->
-<!--            <h4 class="title"><a href="">Lorem Ipsum</a></h4>-->
-<!--            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>-->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+            <img class="icon" src="assets/img/portfolio/iconfinder_Book_with_seperator_1741325-2-removebg-preview.png" alt="SmartNotebook App Logo">
+            <h4 class="title">SmartNotebook</h4>
+            <p class="description">Android app developed as graduation project for my bachelor's degrees at Westminster College and Politecnico di Milano.<br>
+              Inspired by my own needs to improve my class notes, I developed an app for “smart” note taking on paper notebooks that links digital content uploaded to the app to a corresponding number to be written on the page, and later recognized through OCR to open the requested file.</p>
+            <p class="description">Check out the <a href="assets/docs/Project%20Report.pdf" target="_blank">project report</a>, the code on <a href="https://github.com/GiuliaLo/Smart-Notebook">github</a> and a <a href="https://youtube.com/shorts/V6ctpXa8lsQ?feature=share" target="_blank">video demo</a>.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+            <img class="icon" src="assets/img/portfolio/Logo_VicinoAmico-removebg-preview.png" alt="VicinoAmico website">
+            <h4 class="title">VicinoAmico WebApp</h4>
+            <p class="description">Webapp developed as a group project for the course "Hypermedia Applications" at Politecnico di Milano.</p>
+            <p class="description">The assignment involved:</p>
+            <ul class="description">
+              <li>writing a design document containing the detailed plans for the website, from architecture decisions to UI wireframes</li>
+              <li>the full development of a multi-page webapp with RESTful architecture using HTML, CSS, javascript, jQuery, Bootstrap, NodeJS, heroku, OpenAPI, Swagger</li>
+              <li>a usability test conducted with 5 users</li>
+            </ul>
+            <p class="description">Visit the website <a href="http://vicino-amico.herokuapp.com" target="_blank">here</a> and see the API docs <a href="http://vicino-amico.herokuapp.com/docs/" target="_blank">here</a>.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-shield-fill"></i></div>
+            <h4 class="title">Assignments for the Software Security course at the University of Twente</h4>
+            <ul class="description">
+              <li><em>Implement a memory-safe balanced tree in C:</em> involved using cppcheck, valgrind, and fuzzing with AFL with ASAN enabled to verify</li>
+              <li><em>Implement a balanced tree in Rust</em></li>
+              <li><em>Fix a web application:</em> used OWASP ZAP and sqlmap as well as manual code inspection to find and fix vulnerabilities in an webapp developed in Kotlin with ktor. We also modified some code to be able to write a more restrictive CSP.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-link"></i></div>
+            <h4 class="title">Helping Hand</h4>
+            <p class="description">Group project for the "Blockchain and Distributed Ledger Technology" at the University of Twente.<br>
+              We developed a blockchain application with COSMOS and Tendermint's Starport platform.</p>
+          </div>
+<!--          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">-->
+<!--            <div class="icon"><i class="bi bi-bug"></i></div>-->
+<!--            <h4 class="title">Assignments for the AI for Software Testing and Reverse Engineering course at the University of Twente</h4>-->
+<!--            <ul class="description">-->
+<!--              <li>1</li>-->
+<!--              <li>2</li>-->
+<!--              <li>3</li>-->
+<!--              <li>final</li>-->
+<!--            </ul>-->
 <!--          </div>-->
-<!--          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">-->
-<!--            <div class="icon"><i class="bi bi-card-checklist"></i></div>-->
-<!--            <h4 class="title"><a href="">Dolor Sitema</a></h4>-->
-<!--            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>-->
-<!--          </div>-->
-<!--          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">-->
-<!--            <div class="icon"><i class="bi bi-bar-chart"></i></div>-->
-<!--            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>-->
-<!--            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>-->
-<!--          </div>-->
-<!--          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">-->
-<!--            <div class="icon"><i class="bi bi-binoculars"></i></div>-->
-<!--            <h4 class="title"><a href="">Magni Dolores</a></h4>-->
-<!--            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
-<!--          </div>-->
-<!--          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">-->
-<!--            <div class="icon"><i class="bi bi-brightness-high"></i></div>-->
-<!--            <h4 class="title"><a href="">Nemo Enim</a></h4>-->
-<!--            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>-->
-<!--          </div>-->
-<!--          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">-->
-<!--            <div class="icon"><i class="bi bi-calendar4-week"></i></div>-->
-<!--            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>-->
-<!--            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>-->
-<!--          </div>-->
-<!--        </div>-->
+        </div>
+        <div class="row">
+          <div class="icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-bug"></i></div>
+            <h4 class="title">Assignments for the System Security course at the University of Twente</h4>
+            <ul class="description">
+              <li><em>Implement a PRNG in python and test it with the NIST 800-22 test suite</em></li>
+              <li><em>Implement an arbiter PUF, an XOR arbiter PUF, and an iPUF and compare their performance when attacked using two different supervised learning algorithms</em></li>
+              <li><em>Perform Correlation Power Analysis, Pooled Template Attack, and a machine learning-based profiling attack to crack the AES encryption key stored on a device</em> (based on <a href="https://wiki.newae.com/" target="_blank">this</a>)</li>
+              <li><em>Attack the insecure cloud service of an IoT device:</em> involved using MITMProxy to decrypt TLS traffic and steal the credentials exploiting an insecure certificate check, and then using mosquitto to subscribe to messages not meant for our IoT board</li>
+              <li><em>Implement a network-based covert channel:</em> modified an android app to exfiltrate text input by the user encoding it in the HTTP headers sent back to the server</li>
+              <li><em>Implement a sound-based covert channel:</em> encoded the message using inaudible high frequency sounds</li>
+            </ul>
+          </div>
+        </div>
 
-<!--      </div>-->
-<!--    </section>&lt;!&ndash; End Services Section &ndash;&gt;-->
 
-<!--    &lt;!&ndash; ======= Testimonials Section ======= &ndash;&gt;-->
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
 <!--    <section id="testimonials" class="testimonials section-bg">-->
 <!--      <div class="container">-->
 
